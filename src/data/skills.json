@@ -1,0 +1,46 @@
+[
+  {
+    "name": "React",
+    "level": 5
+  },
+  {
+    "name": "JavaScript",
+    "level": 5
+  },
+  {
+    "name": "Node.js",
+    "level": 5
+  },
+  {
+    "name": "Python",
+    "level": 5
+  },
+  {
+    "name": "C",
+    "level": 4
+  },
+  {
+    "name": "C++",
+    "level": 4
+  },
+  {
+    "name": "Java",
+    "level": 4
+  },
+  {
+    "name": "Angular",
+    "level": 4
+  },
+  {
+    "name": "Vue",
+    "level": 4
+  },
+  {
+    "name": "Ionic",
+    "level": 3
+  },
+  {
+    "name": "WebGL",
+    "level": 3
+  }
+]

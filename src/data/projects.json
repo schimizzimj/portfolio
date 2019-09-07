@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Stop Toxic Housing Website",
+    "text": "Website I built for a professor at Notre Dame for a cause dedicated to fighting to prevent a dangerous housing development in East Pasadena, CA. Built using GatsbyJS.",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/c_scale,h_600,w_800/v1556150388/sth_apcmcd.png",
+    "link": "stoptoxichousing.org"
+  },
+  {
+    "title": "Perception",
+    "text": "A website I built as a freelancing project for a company called Perception Web Management. Built using Bootstrap, FontAwesome, and jQuery.",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/c_scale,h_800,w_1200/v1566237073/perception_cvnz6j.png",
+    "link": "https://perception.schimizzi.io"
+  },
+  {
+    "title": "Sentiment Analysis Web Application",
+    "text": "A sentiment analysis application that gauges public opinion of a company and correlates it with stock price. Built with Node.js and Python.",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/c_crop,h_600,w_800,x_260,y_200/c_scale,h_300,w_400/v1518625368/10_dvdlu8.png",
+    "link": ""
+  },
+  {
+    "title": "ND Adventure",
+    "text": "RPG/Adventure game based on Notre Dame's computer science department. Built with Pygame.",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/c_scale,h_300,w_400/v1504123162/871d0e5d3a57b37aa28a5b7cf867fcec_cirncl.png",
+    "link": ""
+  },
+  {
+    "title": "Frogger Clone",
+    "text": "Frogger clone built with C++ and a custom graphics library based on X11.",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/c_scale,h_300,w_400/v1504125705/frogger_be25kj.jpg",
+    "link": ""
+  },
+  {
+    "title": "PCeption",
+    "text": "Final project for my computer graphics course. In it, we designed an interactive laptop model using WebGL and the three.js library.",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/c_crop,h_600,w_800/v1551376314/PCeption_rgqnyd.gif",
+    "link": ""
+  },
+  {
+    "title": "Predicting the 2018 Midterm",
+    "text": "Data science project that uses multiple models to predict the 2018 US House of Representatives midterm. Built with Python.",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/c_scale,h_600,w_800/v1551377812/datasc_xswkbr.png",
+    "link": ""
+  },
+  {
+    "title": "Multimedia Entertainment Tier Heuristic",
+    "text": "Gives info on movies. Sort of like IMDb, but with a weird name and way less features, functionality, and info. Built with Elm and Crystal.",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/c_scale,h_600,w_800/v1552603577/multientertierheur_i9zohz.png",
+    "link": "https://hackerelm.netlify.com/"
+  },
+  {
+    "title": "Nightingale",
+    "text": "Final project for a Social Sensing and Cyber-Physical Systems course. The application creates poetry out of tweets. Built with Python and React.",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/v1558116118/nightingale_eti3re.png",
+    "link": "https://nightingaleproject.netlify.com/"
+  }
+]

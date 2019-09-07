@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from "prop-types";
+import React from "react"
+import PropTypes from "prop-types"
 
-import "./starsParallax.scss";
+import "./starsParallax.scss"
 
 export default class StarsParallax extends React.Component {
   static propTypes = {
@@ -9,18 +9,21 @@ export default class StarsParallax extends React.Component {
   }
 
   componentDidMount() {
-    window.addEventListener("scroll", function (e) {
-      const scrolled = window.pageYOffset;
+    window.addEventListener("scroll", function(e) {
+      const scrolled = window.pageYOffset
 
-      const parallax = document.getElementsByClassName('parallax');
-      const backgrounds = document.getElementsByClassName('parallaxBackground');
+      const parallax = document.getElementsByClassName("parallax")
+      const backgrounds = document.getElementsByClassName("parallaxBackground")
       for (let i = 0; i < backgrounds.length; i++) {
-        if (parallax[i].getBoundingClientRect().top <= window.innerHeight && parallax[i].getBoundingClientRect().bottom >= 0) {
-          backgrounds[i].style.top = - (scrolled * 0.2) + 'px';
-          console.log(i + " in view");
+        if (
+          parallax[i].getBoundingClientRect().top <= window.innerHeight &&
+          parallax[i].getBoundingClientRect().bottom >= 0
+        ) {
+          backgrounds[i].style.top = -(scrolled * 0.2) + "px"
+          console.log(i + " in view")
         }
       }
-    });
+    })
   }
 
   render() {
@@ -30,10 +33,8 @@ export default class StarsParallax extends React.Component {
           <div className="starsBackground"></div>
           <div className="twinkling"></div>
         </div>
-        <div className="parallaxContent">
-          {this.props.children}
-        </div>
+        <div className="parallaxContent">{this.props.children}</div>
       </div>
-    );
+    )
   }
 }

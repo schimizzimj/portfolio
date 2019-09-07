@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Instagram",
+    "link": "https://instagram.com/marcusschimizzi",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/v1488528004/icon-instagram_wig3ya.svg",
+    "number": "item-1"
+  },
+  {
+    "name": "Github",
+    "link": "https://github.com/schimizzimj",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/v1488527979/icon-github_h2cpnw.svg",
+    "number": "item-2"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/marcus-schimizzi-56a6229b",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/v1488527986/icon-linkedin_s1jn8k.svg",
+    "number": "item-3"
+  },
+  {
+    "name": "Facebook",
+    "link": "https://facebook.com/marcus.j.schimizzi",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/v1488527974/icon-facebook_supky9.svg",
+    "number": "item-4"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/marcusschimizzi",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/v1488527989/icon-twitter_uv4qkd.svg",
+    "number": "item-5"
+  },
+  {
+    "name": "Email",
+    "link": "mailto:mschimiz@nd.edu",
+    "image": "https://res.cloudinary.com/marcusschimizzi/image/upload/v1488527982/icon-gmail_q3rpvi.svg",
+    "number": "item-6"
+  }
+]

@@ -1,0 +1,95 @@
+section.section.skills {
+  color: white;
+  padding: 2rem;
+
+  .sectionTitle {
+    color: white;
+  }
+  .skillList {
+    width: 60%;
+    margin: 0 auto;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: -webkit-inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: center;
+
+    @media screen and (max-width: 480px) {
+      width: 95%;
+    }
+  }
+
+  .skillList:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .singleSkill {
+      text-align: center;
+      display: block;
+      min-height: 150px;
+      position: relative;
+      margin: 0 8px;
+      @media screen and (max-width: 1300px) {
+        width: calc(100%/3);
+      }
+      @media screen and (max-width: 870px) {
+        width: calc(100%/2);
+      }
+      @media screen and (max-width: 580px) {
+        width: 100%;
+      }
+
+      @media screen and (max-width: 480px) {
+        min-height: unset;
+      }
+  }
+
+  .singleSkill > h3 {
+    font-size: 2em;
+    margin: 0;
+    -webkit-transition: all 425ms ease;
+    -moz-transition: all 425ms ease;
+    transition: all 425ms ease;
+    animation: none;
+
+    @media screen and (max-width: 480px) {
+      float: left;
+      font-size: 1.5em;
+    }
+  }
+
+  .singleSkill:hover {
+    h3 {
+      -webkit-animation: glow 0.5s ease-in-out infinite alternate;
+      -moz-animation: glow 0.5s ease-in-out infinite alternate;
+      animation: glow 0.5s ease-in-out infinite alternate;
+    }
+  }
+
+  .stars {
+    font-size: 2em;
+    min-width: 180px;
+
+    @media screen and (max-width: 480px) {
+      float: right;
+      min-width: unset;
+      font-size: 1.3em;
+    }
+  }
+
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e5d200, 0 0 40px #e5d200, 0 0 50px #e5d200, 0 0 60px #e5d200, 0 0 70px #e5d200;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #f9f045, 0 0 40px #f9f045, 0 0 50px #f9f045, 0 0 60px #f9f045, 0 0 70px #f9f045, 0 0 80px #f9f045;
+    }
+  }
+}
