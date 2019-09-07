@@ -1,0 +1,82 @@
+.parallax {
+  // width: 100vw;
+  // height: 100vh;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+
+  .starsBackground, .twinkling {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display:block;
+  }
+
+  .parallaxBackground {
+    position: absolute;
+    width: 100vw;
+    height: 300vh;
+    overflow: hidden;
+    z-index: -1
+  }
+
+  .starsBackground {
+    background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+    z-index:0;
+  }
+
+  .twinkling {
+    background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+    z-index:1;
+
+    -moz-animation:move-twinkling-back 200s linear infinite;
+    -ms-animation:move-twinkling-back 200s linear infinite;
+    -o-animation:move-twinkling-back 200s linear infinite;
+    -webkit-animation:move-twinkling-back 200s linear infinite;
+    animation:move-twinkling-back 200s linear infinite;
+  }
+
+  .parallaxContent {
+    z-index: 1000;
+  }
+
+  @media screen and (min-width: 480px) {
+
+  }
+  @media screen and (min-width: 768px) {
+
+  }
+  @media screen and (min-width: 1024px) {
+    .parallaxBackground {
+      height: 200vh;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+
+  }
+  @media screen and (min-width: 1488px) {
+
+  }
+}
+
+
+/* ANIMATIONS */
+
+@keyframes move-twinkling-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twinkling-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twinkling-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twinkling-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}

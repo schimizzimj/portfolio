@@ -1,8 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../assets/fonts/Montserrat-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Courier New";
+  src: url("../../assets/fonts/courier-new.ttf");
+  font-weight: normal;
+}
+
 html {
-  font-family: sans-serif;
+  font-family: "Courier New", serif;
+  font-size: 16px;
+  word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -321,6 +342,15 @@ h6 {
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", Arial, sans-serif;
 }
 hgroup {
   margin-left: 0;
