@@ -2,6 +2,8 @@ import React from "react"
 import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
+import whiteProfile from "../../images/whiteProfile.png";
+import colorProfile from "../../images/nobg1.png";
 import "./splash.sass"
 
 const Splash = () => (

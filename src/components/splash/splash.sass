@@ -6,6 +6,15 @@
   align-items: center
   text-align: center
 
+.profile
+  position: relative
+  width: 1280px
+  height: 612px
+
+.profileAnimation
+  width: 408px
+  height: 612px
+
 .title
   display: block
   color: #35495e
@@ -32,3 +41,22 @@
 
 #instagram:hover
   color: #C13584
+
+.leftProfile
+  transform: translateX(-100px)
+  animation: slideLeft 1s ease
+
+.rightProfile
+  animation: slideRight 1s ease 1s
+
+@keyframes slideLeft
+  0%
+    transform: translateX(0)
+  100%
+    transform: translateX(-100px)
+
+@keyframes slideRight
+  0%
+    transform: translateX(0)
+  100%
+    transform: translateX(100px)

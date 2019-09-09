@@ -25,6 +25,7 @@ h1 {
 
 .projectLink {
   cursor: pointer;
+  margin-bottom: 40px;
 }
 
 .card {
@@ -32,7 +33,6 @@ h1 {
   width: 90vw;
   /* height: 500px; */
   display: block;
-  margin-bottom: 40px;
   text-align: left;
   border: thin solid rgba(51,122,183,.1);
   border-radius: 5px;
